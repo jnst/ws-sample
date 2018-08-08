@@ -1,0 +1,27 @@
+{
+  "name": "ws-sample",
+  "version": "0.0.1",
+  "description": "WebSocket sample code",
+  "scripts": {
+    "start": "node ./dist/server/server.js",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "jnst <jnst@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnst/ws-sample.git"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.5.7",
+    "@types/ws": "^5.1.2",
+    "typescript": "^3.0.1"
+  }
+}
