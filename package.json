@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "WebSocket sample code",
   "scripts": {
-    "start": "node ./dist/server/server.js",
+    "start": "node ./dist/server.js",
     "build": "tsc",
     "watch": "tsc --watch"
   },
